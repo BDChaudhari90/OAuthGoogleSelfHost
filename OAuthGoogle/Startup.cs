@@ -27,8 +27,8 @@ namespace OAuthGoogle
             app.SetDefaultSignInAsAuthenticationType(cookieOpts.AuthenticationType);
             var googleOpts = new GoogleOAuth2AuthenticationOptions
             {
-                ClientId = "168100992146-gf3gn7lh4i0aabpulf921sh2i68k41cl.apps.googleusercontent.com",
-                ClientSecret = "_wR1BzvtRyT3CHxX7y_i8ZkS",
+                ClientId = "168100992146-gf3gn7lh4i0aabpasdfasdfasdfulf921sh2i68k41cl.apps.googleusercontent.com",
+                ClientSecret = "_wR1BzvtRyT3asdfasdfCHxX7y_i8ZkS",
                 Provider = new GoogleOAuth2AuthenticationProvider()                
             };
             googleOpts.Scope.Add("email");
